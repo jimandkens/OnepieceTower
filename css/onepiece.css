@@ -1,0 +1,48 @@
+ body {
+     margin: 0px;
+     padding: 0px;
+     font-size: 0.85em;
+     font-weight: bold;
+     font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+ }
+ #divleft{
+     background-color: yellow;
+     position: fixed;
+     width: 50%;
+     top: 0px;
+ }
+ #divright{
+     width: 50%;
+     /* 昨天的方法
+     position: absolute;
+     right: 0; 
+     */
+     margin-left: 50%;
+     text-align: center;
+     padding: 0px 50px 0px 0px;
+     top: 0%;
+ }
+ #tra
+{
+	width:100%;
+	border-collapse: collapse;
+    text-align: center;
+    padding: 0px 10px 10px 60px;
+}
+
+#tra td
+{
+	border: 1px solid #bbbbbb;
+	padding: 15px;
+}
+
+#tra th
+{
+	background-color:blue; 
+	border: 1px solid gray;
+	padding: 15px;
+}
+.content{
+    padding: 0px 10px 10px 60px;
+    text-align: left;
+}
